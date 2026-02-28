@@ -1,0 +1,80 @@
+body{
+margin:0;
+font-family:Tahoma, sans-serif;
+background: url('logo/background.jpg');
+background-size: 100% 100%;
+background-position: center;
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-color: #121212;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+color:white;
+}
+
+.container{
+background:#042030;
+padding:10px;
+border-radius:5px;
+width:350px;
+text-align:center;
+}
+
+#score{
+  color:#7de3f5;
+  margin-top:10px;
+}
+
+h1 {
+  color: #ff9a1f;
+  font-family: 'sans-serif-black';
+  margin-bottom:0px;
+  }
+h3 {
+  color: #73a832;
+  font-family: 'Georgia';
+  margin-top:5px;
+  }
+
+button{
+padding:10px 15px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+#startBtn{background:#ba47b8;color:white;}
+#submitBtn{background:#007bff;color:white;}
+#nextBtn{background:#17a2b8;color:white;}
+
+.option{
+background:#333;
+padding:10px;
+margin:8px 0;
+border-radius:6px;
+border:2px solid transparent;
+cursor:pointer;
+}
+
+.option:hover{background:#555;}
+
+.selected{border:2px solid yellow;}
+.correct{background:green;}
+.wrong{background:red;}
+
+.hidden{display:none;}
+
+.topBar{
+display:flex;
+justify-content:space-between;
+margin-bottom:15px;
+}
+
+#timer{
+background:red;
+padding:9px 10px;
+border-radius:6px;
+}

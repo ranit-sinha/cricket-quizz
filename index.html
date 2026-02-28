@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cricket Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🏏 Cricket Quiz 🏟️</h1> 
+     <h3>by Ranit</h3>
+
+    <div id="startScreen">
+        <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <div id="quizScreen" class="hidden">
+        <div class="topBar">
+            <div id="timer">30</div>
+            <div id="score">Score: 0</div>
+        </div>
+
+        <div id="question"></div>
+        <div id="options"></div>
+
+        <button id="submitBtn">Submit</button>
+        <button id="nextBtn" class="hidden">Next</button>
+    </div>
+
+    <div id="endScreen" class="hidden">
+        <h2 id="finalScore"></h2>
+        <button id="playAgainBtn">Play Again</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
